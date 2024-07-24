@@ -24,17 +24,20 @@ docker run -p 8000:8000 kie-application
 
 ## Repo Structure 
 
-|-data
-|-src
-    |-data_loaders
-        |-data_loader
-    |-entity_extraction
-        |-ml_tasks
-        |-models
-    |-processing
-        |-text_processing
-        |-
-|-test
+|-data  
+|-notebooks      
+|-resources      
+|-src       
+        |-data_loaders  
+        |-data_loader   
+    |-entity_extraction 
+        |-ml_tasks  
+        |-models    
+    |-processing    
+        |-text_processing   
+|-test  
+|-config.py
+|-main.py
 
 ## Tasks Supported
     1. Loading Data 
