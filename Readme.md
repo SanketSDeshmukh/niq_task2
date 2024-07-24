@@ -1,4 +1,4 @@
-# KIE Task
+# Task
 
 This repo hosts the pseudocode for KIE information extraction setup. 
 
@@ -23,7 +23,9 @@ docker run -p 8000:8000 kie-application
 ```
 
 ## Repo Structure 
---ToDo
+
+data
+src
 
 ## Tasks Supported
     1. Loading Data 
